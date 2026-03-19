@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+.image-dish{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.container{
+  display: grid;
+  overflow: hidden;
+  background-color: #11121a;
+  border: 2px solid #0000;
+  border-radius: 1em;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  
+}
+.description_list{
+  padding: 23px 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+.first_list h1{
+  padding: 0.5em 0;
+}
+.first_list p, .first_list  ul li{
+  padding: 0.5em 0;
+  font-weight: 600;
+  line-height: 1.2;
+  color: orangered;
+  font-size: 1em;
+}
+.steps-list{
+  display: grid;
+  max-width: 900px;
+  padding: 34px 28px;
+  margin: 5% auto;
+  background-color: #11121a;
+  border-radius: 1em;
+  overflow-x: auto;
+
+  h1{
+    color: #fff;
+    padding: 0.5em 0;
+  }
+}
+.steps-list ol li{
+  color: orangered;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.link-text{
+  margin: auto;
+  text-align: center;
+}
+.link{
+  padding: 1em 1.2em;
+  background-color: gray;
+  font-weight: 600;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.header{
+  padding: 28px 34px;
+  margin: auto;
+  text-align: center;
+}
+.unOrder-list li{
+  display: inline-block;
+}
+.unOrder-list li .link-page{
+  color: orangered;
+  padding: 10px 28px;
+  margin: 10px 10px;
+  font-weight: 600;
+  display: inline-block;
+  background-color: #11121a;
+  border-radius: 0.5em;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.heading-txt{
+  padding: 10px 15px;
+}
+
+@media (max-width: 500px) {
+  .description_list{
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  .first_list h1, .steps-list h1{
+    font-size: 1.1em;
+  }
+  .first_list p, .first_list  ul li, .steps-list ol li{
+    font-size: 0.8em;
+    line-height: 1.1;
+  }
+  .steps-list ol li{
+      line-height: 1.2;
+  }
+  .header{
+    font-size: 1.3em;
+  }
+  .link{
+    padding: 0.8em 1em;
+    font-size: 0.8em;
+  }
+  .link-text{
+    margin: 15px auto;
+  }
+  .unOrder-list .link-page{
+   font-size: 0.5em;
+   padding: 8px 10px;
+  }
+}
