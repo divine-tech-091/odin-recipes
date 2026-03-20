@@ -20,7 +20,9 @@ body{
   border-radius: 1em;
   color: #fff;
   max-width: 900px;
-  margin: auto;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  justify-self: center;
   
 }
 .description_list{
@@ -37,16 +39,24 @@ body{
   font-weight: 600;
   line-height: 1.2;
   color: orangered;
-  font-size: 1em;
+  font-size: 1.2em;
+
 }
+/* .first_list  ul li{
+  font-size: 1.2em;
+} */
 .steps-list{
   display: grid;
   max-width: 900px;
-  padding: 34px 28px;
-  margin: 5% auto;
+  padding: 23px 33px;
+  justify-self: center;
+  /* margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  margin-top: 20px; */
+  margin: 20px;
   background-color: #11121a;
   border-radius: 1em;
-  overflow-x: auto;
+  overflow: hidden;
 
   h1{
     color: #fff;
@@ -57,10 +67,13 @@ body{
   color: orangered;
   line-height: 1.5;
   font-weight: 600;
+  font-size: 1.2em;
 }
 .link-text{
-  margin: auto;
+  display: grid;
+  justify-self: center;
   text-align: center;
+  margin-bottom: 10px;
 }
 .link{
   padding: 1em 1.2em;
