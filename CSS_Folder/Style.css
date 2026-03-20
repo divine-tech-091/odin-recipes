@@ -6,6 +6,7 @@
 body{
   min-height: 100vh;
   min-height: 100dvh;
+  scroll-behavior: smooth;
 }
 .image-dish{
   width: 100%;
