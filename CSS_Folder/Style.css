@@ -32,7 +32,7 @@ body{
   grid-template-columns: repeat(2, 1fr);
   gap: 2em;
 }
-.first_list h1{
+.first_list h2{
   padding: 0.5em 0;
 }
 .first_list p, .first_list  ul li{
@@ -59,7 +59,7 @@ body{
   border-radius: 1em;
   overflow: hidden;
 
-  h1{
+  h2{
     color: #fff;
     padding: 0.5em 0;
   }
